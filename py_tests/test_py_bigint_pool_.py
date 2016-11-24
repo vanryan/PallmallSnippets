@@ -3,7 +3,7 @@
 
 In int_dealloc, no memory will be given back to the system heap until the python process is over, which is kind of like memory leak.
 
-On Macbook Pro mid 2015, 2.5 Ghz i7, 16 GB 1600 MHz DDR3, this process takes around 2.72GB memory
+Run in Python 2.7.11, on Macbook Pro mid 2015, 2.5 Ghz i7, 16 GB 1600 MHz DDR3, this process takes around 2.72GB memory
 '''
 
 
