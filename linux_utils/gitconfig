@@ -1,0 +1,18 @@
+ [user]
+   email = xxxx@xxx.com
+   name = xxxx
+ [core]
+   excludesfile = ~/.gitignore_global
+   editor = vim
+ [alias]
+   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold     blue)<%an>%Creset' --abbrev-commit --date=relative
+   cm = commit
+   cmm = commit -m
+   cma = commit --amend
+   co = checkout
+   st = status
+   br = branch
+   psom = push origin master
+   plom = pull origin master
+ [color]
+   ui = true
