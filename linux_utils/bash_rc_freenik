@@ -4,7 +4,9 @@
 # 
 # do 'source ~/.bashrc' in '~/.bash_profile' or '~/.bash_login' to auto load .bashrc
 #
-#
+# About git:
+# To avoid repeatedly type git credentials, do:
+# git config credential.helper store
 
 
 GREEN="\[$(tput setaf 2)\]"
